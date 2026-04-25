@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nurul Ramly — Administrative & Diplomatic Officer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">NR</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-photo-wrap">
+        <img src="profile-photo.jpg" alt="Nurul Ramly" class="hero-photo" onerror="this.style.display='none'; document.getElementById('initials-avatar').style.display='flex';" />
+        <div class="initials-avatar" id="initials-avatar">NR</div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-pre">Welcome, I'm</p>
+        <h1 class="hero-name">Nurul Ramly</h1>
+        <p class="hero-tagline">Administrative &amp; Diplomatic Officer<br><span>Federal Government of Malaysia</span></p>
+        <div class="hero-badges">
+          <span class="badge">🏛️ Architecture</span>
+          <span class="badge">🌍 Diplomacy</span>
+          <span class="badge">🎨 Arts &amp; Design</span>
+          <span class="badge">📜 Public Policy</span>
+        </div>
+        <a href="#contact" class="btn-primary">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-label">01 — About</div>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="drop-cap">An experienced Administrative &amp; Diplomatic Officer with the Federal Government of Malaysia, with a strong academic background spanning architecture, public administration, and international development.</p>
+            <p>Passionate about policy, global trade, and industry development, with hands-on fieldwork experience across multiple countries including Uganda, the UK, Thailand, and Indonesia.</p>
+            <p>My journey from architecture to diplomacy reflects a deep curiosity about how spaces, societies, and systems are built — and how they can be improved.</p>
+          </div>
+          <div class="about-facts">
+            <h3>Fun Facts</h3>
+            <div class="facts-grid">
+              <div class="fact-card">🌍 Fieldwork in Uganda &amp; heritage studies in Indonesia</div>
+              <div class="fact-card">🥋 Silat practitioner — competed at university &amp; state level</div>
+              <div class="fact-card">🏹 Archer — competed in national university sports (MASUM)</div>
+              <div class="fact-card">🏛️ Architect turned diplomat — bridging design &amp; governance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section edu-section" id="education">
+      <div class="container">
+        <div class="section-label">02 — Education</div>
+        <h2 class="section-title">Academic Journey</h2>
+        <div class="timeline">
+
+          <!-- Manchester -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="uni-logo-wrap">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/University_of_Manchester_crest.svg/120px-University_of_Manchester_crest.svg.png"
+                       alt="University of Manchester logo"
+                       class="uni-logo"
+                       onerror="this.outerHTML='<div class=\'uni-logo-fallback\'>UoM</div>'" />
+                </div>
+                <div>
+                  <h3 class="edu-degree">MSc International Development</h3>
+                  <p class="edu-sub">Globalisation, Trade &amp; Industry</p>
+                  <p class="edu-school">The University of Manchester</p>
+                  <span class="edu-year">2015 – 2016</span>
+                </div>
+              </div>
+              <ul class="edu-details">
+                <li>Development Fieldwork trip to Uganda — tourism industry study</li>
+                <li>Visits to manufacturing facilities in Uganda &amp; UK (iron &amp; steel, pharma, tea, coffee, automotive)</li>
+                <li>Dissertation: <em>Economic Upgrading of the Malaysian Aerospace Industry in the Global Production Network</em></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- INTAN -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="uni-logo-wrap">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/INTAN_logo.png/120px-INTAN_logo.png"
+                       alt="INTAN logo"
+                       class="uni-logo"
+                       onerror="this.outerHTML='<div class=\'uni-logo-fallback\'>INTAN</div>'" />
+                </div>
+                <div>
+                  <h3 class="edu-degree">Diploma in Public Administration</h3>
+                  <p class="edu-school">Malaysia Public Service Institute (INTAN)</p>
+                  <span class="edu-year">2006 – 2007</span>
+                </div>
+              </div>
+              <ul class="edu-details">
+                <li>Army training at PULADA, Johor; Outward Bound School at Lumut, Perak</li>
+                <li>Fire &amp; Rescue Training at KKB, Selangor; Police Training at PULAPOL Cheras, KL</li>
+                <li>Head of Graphic Design</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- IIUM BArch -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="uni-logo-wrap">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/IIUM_Logo.svg/120px-IIUM_Logo.svg.png"
+                       alt="IIUM logo"
+                       class="uni-logo"
+                       onerror="this.outerHTML='<div class=\'uni-logo-fallback\'>IIUM</div>'" />
+                </div>
+                <div>
+                  <h3 class="edu-degree">Bachelor of Architecture (BArch)</h3>
+                  <p class="edu-school">International Islamic University Malaysia (IIUM)</p>
+                  <span class="edu-year">2004 – 2006</span>
+                </div>
+              </div>
+              <ul class="edu-details">
+                <li>Represented IIUM in Silat sparring tournaments &amp; Archery (MASUM)</li>
+                <li>Secretary of the Islamic Architecture Students Society</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- IIUM BS -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="uni-logo-wrap">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/IIUM_Logo.svg/120px-IIUM_Logo.svg.png"
+                       alt="IIUM logo"
+                       class="uni-logo"
+                       onerror="this.outerHTML='<div class=\'uni-logo-fallback\'>IIUM</div>'" />
+                </div>
+                <div>
+                  <h3 class="edu-degree">BSc Architectural Studies (Hons)</h3>
+                  <p class="edu-school">International Islamic University Malaysia (IIUM)</p>
+                  <span class="edu-year">1998 – 2004</span>
+                </div>
+              </div>
+              <ul class="edu-details">
+                <li>Winner — Mosque Furniture Design Competition</li>
+                <li>1st Runner-up — International Kite Competition &amp; International Bridge Competition</li>
+                <li>Cultural trip to Thailand; Heritage Studies in Semarang, Indonesia</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-label">03 — Skills</div>
+        <h2 class="section-title">Skills &amp; Passions</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">🏛️</div>
+            <h3>Architecture &amp; Heritage</h3>
+            <p>Urban heritage studies, architectural design, and preservation of cultural spaces.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>Diplomacy &amp; Public Administration</h3>
+            <p>Policy development, international relations, and government administration.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <h3>International Development</h3>
+            <p>Global trade policy, production networks, and economic development strategy.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>Arts &amp; Graphic Design</h3>
+            <p>Visual communication, creative design, and arts portfolio development.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🥋</div>
+            <h3>Malay Martial Art (Silat)</h3>
+            <p>Competed at university and state level in Silat sparring tournaments.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🏹</div>
+            <h3>Archery</h3>
+            <p>Represented IIUM in national university sports (MASUM) archery tournaments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-label">04 — Achievements</div>
+        <h2 class="section-title">Achievements</h2>
+        <div class="achievements-grid">
+          <div class="achievement-card gold">
+            <div class="ach-icon">🏆</div>
+            <p>Winner — Mosque Furniture Design Competition</p>
+          </div>
+          <div class="achievement-card silver">
+            <div class="ach-icon">🥈</div>
+            <p>1st Runner-up — International Kite Competition</p>
+          </div>
+          <div class="achievement-card silver">
+            <div class="ach-icon">🥈</div>
+            <p>1st Runner-up — International Bridge Competition</p>
+          </div>
+          <div class="achievement-card blue">
+            <div class="ach-icon">🥋</div>
+            <p>Represented IIUM in Silat sparring tournaments at university &amp; state level</p>
+          </div>
+          <div class="achievement-card blue">
+            <div class="ach-icon">🏹</div>
+            <p>Represented IIUM in Archery — Malaysian University Sports Council (MASUM)</p>
+          </div>
+          <div class="achievement-card teal">
+            <div class="ach-icon">🌍</div>
+            <p>Development fieldwork in Uganda — tourism industry research</p>
+          </div>
+          <div class="achievement-card teal">
+            <div class="ach-icon">📝</div>
+            <p>Dissertation: Economic Upgrading of the Malaysian Aerospace Industry in the Global Production Network</p>
+          </div>
+          <div class="achievement-card purple">
+            <div class="ach-icon">🎨</div>
+            <p>Head of Graphic Design — Malaysia Public Service Institute (INTAN)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-label">05 — Portfolio</div>
+        <h2 class="section-title">Arts Portfolio</h2>
+        <p class="section-intro">A curated collection of architectural drawings, graphic design work, and creative projects.</p>
+
+        <!-- Upload Area -->
+        <div class="upload-area" id="uploadArea">
+          <div class="upload-icon">🎨</div>
+          <h3>Upload Your Artwork</h3>
+          <p>Drag &amp; drop images here, or click to browse</p>
+          <p class="upload-hint">Supports JPG, PNG, PDF, SVG — up to 10MB each</p>
+          <label class="btn-upload" for="fileInput">Choose Files</label>
+          <input type="file" id="fileInput" multiple accept="image/*,.pdf,.svg" style="display:none;" onchange="handleFiles(this.files)" />
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="portfolio-gallery" id="portfolioGallery">
+          <!-- Placeholder cards -->
+          <div class="portfolio-placeholder">
+            <div class="placeholder-icon">🏛️</div>
+            <p>Architectural Drawings</p>
+          </div>
+          <div class="portfolio-placeholder">
+            <div class="placeholder-icon">✏️</div>
+            <p>Design Sketches</p>
+          </div>
+          <div class="portfolio-placeholder">
+            <div class="placeholder-icon">🖼️</div>
+            <p>Graphic Design</p>
+          </div>
+          <div class="portfolio-placeholder">
+            <div class="placeholder-icon">📐</div>
+            <p>Technical Drawings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-label">06 — Contact</div>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-intro">Open to collaborations, speaking engagements, and professional connections.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/nurul-ramly-344689111" target="_blank" rel="noopener noreferrer" class="contact-card linkedin">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            <span>LinkedIn</span>
+            <small>nurul-ramly-344689111</small>
+          </a>
+          <a href="mailto:nurul.ramly@example.com" class="contact-card email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>Email</span>
+            <small>Send a message</small>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">Nurul Ramly</p>
+      <p class="footer-tagline">Administrative &amp; Diplomatic Officer · Malaysia</p>
+      <p class="footer-credit">Built with 🎨 and AI · <strong>#GivetoGain</strong> · Women In Tech Workshop</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        navLinks.classList.remove('open');
+        document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Portfolio file upload
+    const uploadArea = document.getElementById('uploadArea');
+    const gallery = document.getElementById('portfolioGallery');
+
+    uploadArea.addEventListener('dragover', e => { e.preventDefault(); uploadArea.classList.add('drag-over'); });
+    uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('drag-over'));
+    uploadArea.addEventListener('drop', e => {
+      e.preventDefault();
+      uploadArea.classList.remove('drag-over');
+      handleFiles(e.dataTransfer.files);
+    });
+
+    function handleFiles(files) {
+      Array.from(files).forEach(file => {
+        if (!file.type.startsWith('image/')) return;
+        const reader = new FileReader();
+        reader.onload = e => {
+          const item = document.createElement('div');
+          item.className = 'portfolio-item';
+          item.innerHTML = `
+            <img src="${e.target.result}" alt="${file.name}" />
+            <div class="portfolio-overlay">
+              <p>${file.name}</p>
+            </div>`;
+          gallery.appendChild(item);
+        };
+        reader.readAsDataURL(file);
+      });
+    }
+  </script>
+
+</body>
+</html>
